@@ -334,6 +334,18 @@ p {
     color: #757575;
 }
 
+.icons-line {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -359,9 +371,12 @@ p {
     border-color: #2196F3;
 }
 
-.clients-icon {
-   
+.clients-list .link:focus,
+.clients-list .link:hover {
+    fill: #2196F3;
 }
+
+
 
 .clients-list {
     display: flex;
