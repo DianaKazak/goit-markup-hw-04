@@ -342,7 +342,39 @@ p {
     margin-bottom: 30px;
 }
 
+.icon-section2 {
+    width: 270px;
+    height: 120px;
+    padding: 25px 102px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
 
+.social-icon-list:not(:last-child){
+    margin-right: 10px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
 
 
 
@@ -376,7 +408,10 @@ p {
     fill: #2196F3;
 }
 
-
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
 .clients-list {
     display: flex;
