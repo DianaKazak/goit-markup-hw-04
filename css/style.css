@@ -414,5 +414,6 @@ p {
 }
 
 .clients-list {
-    display: flex;
+    display: flex; 
+    fill: #AFB1B8;
 }
