@@ -163,7 +163,10 @@ li {
 }
 
 .section1 {
-    background: #2F303A;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header.jpg);
+    max-width: 1600px;
+    padding: 200px 0px;
+    margin: auto;
 }
 
 img {
@@ -409,8 +412,13 @@ p {
 }
 
 .contact-icon {
-    fill: currentColor;
+    fill: #757575;
     margin-right: 10px;
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+    fill: #2196F3;
 }
 
 .clients-list {
@@ -424,6 +432,7 @@ p {
 
 .social-networks {
     display: flex;
+    gap: 10px;
 }
 
 .social-networks .link {
@@ -456,8 +465,8 @@ p {
     padding-bottom: 20px;
 }
 
-.footer-box:not(:last-child) {
-    margin-right: 70px;
+.footer-box {
+    margin-left: 70px;
 }
 
 .social-icon1 {
