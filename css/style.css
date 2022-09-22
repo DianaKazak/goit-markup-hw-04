@@ -459,3 +459,11 @@ p {
 .footer-box:not(:last-child) {
     margin-right: 70px;
 }
+
+.social-icon {
+  fill: #FFFFFF;
+}
+
+.social-link {
+  fill: #FFFFFF;
+}
