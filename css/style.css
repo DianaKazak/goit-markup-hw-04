@@ -415,5 +415,47 @@ p {
 
 .clients-list {
     display: flex; 
+    
+}
+
+.clients-link {
     fill: #AFB1B8;
+}
+
+.social-networks {
+    display: flex;
+}
+
+.social-networks .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+}
+
+.social-networks .link:hover,
+.social-networks .link:focus {
+    background-color: #2196F3;
+}
+
+.social-networks .item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.connect {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.footer-box:not(:last-child) {
+    margin-right: 70px;
 }
