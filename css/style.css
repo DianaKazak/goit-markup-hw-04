@@ -26,22 +26,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: block;
 }
 
-.header-link2 {
-    display: flex;
-    width: 135px;
-}
 
-.hl2 {
-    padding-left: 344px;
-}
+
+
 
 .header .hl1 {
     column-gap: 50px;
 }
 
-.header .header-link2 {
-    column-gap: 50px;
-}
+
 
 
 .header .flex-container {
@@ -73,6 +66,14 @@ nav.flex-container {
     padding-bottom: 94px;
 }
 
+.section1-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
 .section1 .container {
     text-align: center;
     width: 696px;
@@ -88,6 +89,11 @@ nav.flex-container {
 
 .header-link {
     color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+     letter-spacing: 0.02em;
 }
 
 .team-list .item {
@@ -103,25 +109,30 @@ nav.flex-container {
     margin-bottom: 0px;
 }
 
+.photo-top {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .photo-post {
     margin-top: 10px;
     margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .header-link:hover, .header-link:focus {
     color: #2196F3;
 }
 
-.header-link2 {
-    color: #757575;
-}
-
-.header-link2:hover, .header-link2:focus{
-    color: #2196F3;
-}
-
 .logo {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -174,6 +185,7 @@ img {
 }
 
 h1 {
+    font-family: 'Roboto';
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -190,6 +202,7 @@ li {
 }
 
 .feature {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -198,6 +211,7 @@ li {
 }
 
 .feature-under {
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -211,6 +225,7 @@ li {
 }
 
 .feature1, .team {
+    font-family: 'Roboto';
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -226,6 +241,7 @@ p {
 }
 
 .team-list h3, .team-list p  {
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -249,8 +265,6 @@ p {
     
 }
 
-
-
 .footer-add {
     color: #757575;
     display: block;
@@ -267,13 +281,14 @@ p {
     padding-top: 20px;
 }
 
-
 .footer-add2:hover,
 .footer-add2:focus {
     color: #2196F3;
 }
 
 .footer-add, .footer-add2 {
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -300,8 +315,6 @@ p {
     color: #fff;
 }
 
-
-
 .options__list {
     display: flex;
     justify-content: center;
@@ -324,6 +337,7 @@ p {
 }
 
 .partners__title {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -332,6 +346,8 @@ p {
 }
 
 .partners__paragraph {
+    font-weight: 400;
+    letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.88;
     color: #757575;
@@ -379,14 +395,13 @@ p {
     fill: #FFFFFF;
 }
 
-
-
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .clients-t {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -411,16 +426,6 @@ p {
     fill: #2196F3;
 }
 
-.contact-icon {
-    fill: #757575;
-    margin-right: 10px;
-}
-
-.contact-icon:hover,
-.contact-icon:focus {
-    fill: #2196F3;
-}
-
 .clients-list {
     display: flex; 
     
@@ -430,9 +435,58 @@ p {
     fill: #AFB1B8;
 }
 
+.social-link1 {
+    fill: #FFFFFF;
+}
+
+.our-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.our-contact .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.our-contact .link {
+    font-family: 'Roboto';
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+.footer-box {
+    margin-left: 70px;
+}
+
+.connect {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
 .social-networks {
     display: flex;
-    gap: 10px;
 }
 
 .social-networks .link {
@@ -455,24 +509,10 @@ p {
     margin-right: 10px;
 }
 
-.connect {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-bottom: 20px;
-}
-
-.footer-box {
-    margin-left: 70px;
-}
-
 .social-icon1 {
   fill: #FFFFFF;
 }
 
-.social-link1 {
-    fill: #FFFFFF;
+.footer2 {
+    display: flex;
 }
